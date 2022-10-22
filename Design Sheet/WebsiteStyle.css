@@ -1,0 +1,102 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color:aliceblue;
+}
+/*  Main heading only */
+heading h1 { 
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    font-size: 72px;
+    text-align: center;
+}
+/* Colours and fonts sections set as flex */
+.colours,
+.fonts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 15%;
+}
+
+/* 5 main colours identified */
+.colour1{
+    background-color: #264653;
+    display: stretch;
+    width: 20%;
+}
+
+.colour2{
+    background-color: #2a9d8f;
+    display: stretch;
+    width: 20%;
+}
+
+.colour3{
+    background-color: #e9c46a;
+    display: stretch;
+    width: 20%;
+}
+
+.colour4{
+    background-color: #f4a261;
+    display: stretch;
+    width: 20%;
+}
+
+.colour5{
+    background-color: #e76f51;
+    display: stretch;
+    width: 20%;
+}
+
+/* Titles within each colour */
+.colours h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+/*Text within first 2 colours for readability */
+.colour1, .colour2 {
+    color:aliceblue;
+}
+
+/* Border around each section */
+.fonts, .colours {
+    border: solid 5px #264653;
+}
+
+/* Headings styles */
+h1, h2 { 
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+}
+
+/* Example font groups within fonts section */
+.font1 p{
+    font-family: 'Poppins', sans-serif;
+}
+.font2 p{
+    font-family: 'Comfortaa', cursive;
+}
+.font3 p{
+    font-family: 'Quicksand', sans-serif;
+}
+
+p.bold{
+    font-weight: bold;
+}
+p.normal{
+    font-style: normal;
+}
+p.italic{
+    font-style: italic;
+}
+
+/*Text styles*/
+
